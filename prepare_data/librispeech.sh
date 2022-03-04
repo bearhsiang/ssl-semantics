@@ -2,7 +2,7 @@
 
 root=/hdd/LibriSpeech
 split=train-clean-100
-output_dir=data/LibriSpeech
+output_dir=data/librispeech
 
 python prepare_data/librispeech.py \
     --root $root \
